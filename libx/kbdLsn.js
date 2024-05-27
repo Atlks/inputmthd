@@ -1,10 +1,12 @@
 //f = "C:\\w\\iptmthd\\keysdir\\curKey.txt"
+
+  exe3558 = "D:\\prgrm\\AutoIt3\\AutoIt3.exe"
 var buff = ""
 var {readFileSync, writeFileSync, appendFileSync} = require("fs");
 const fs = require('fs')
 require("./file")
 
-/** la
+/** la law law 法律
  * la law 法律 lk 类库喜欢  lk 喜欢 lk 喜欢 lib
  */
 function main() {
@@ -94,8 +96,8 @@ function setEchoWinTxt(echoWinTxt) {
 
 function wrtToUi(cnstr) {
     try {
-        let exe = "C:\\prgrm\\AutoIt3\\AutoIt3.exe"
-        let cmd = exe + "  writeToUi.au3 " + cnstr;
+
+        let cmd = exe3558 + "  writeToUi.au3 " + cnstr;
 
         console.log(cmd)
         // return
@@ -117,7 +119,7 @@ function wrtToUi(cnstr) {
 /** csl cs
  * undefined undefi nedundefined undefined
  * undefined
- * undefined  law 法律 jst 就 我 nam 名字
+ * undefined  law 法律 jst 就 我 nam 名字 nam
  *  law  law law last  last nm 我们 nam 名字
  * law LAW LAW LAW LAW LAW law
  * @param buff
@@ -224,7 +226,7 @@ function findWdLstByPartwd(curWdpart) {
     }
 
 
- 
+
 
     var {readFileSync, writeFileSync, appendFileSync} = require("fs");
     txt = readFileSync(iomapfile)
