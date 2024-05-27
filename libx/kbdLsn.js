@@ -88,8 +88,7 @@ main()
  * @param echoWinTxt
  */
 function setEchoWinTxt(echoWinTxt) {
-    writeFileSync("c" +
-        "ca.txt", echoWinTxt)
+    writeFileSync("ipt_echo.txt", echoWinTxt)
 }
 
 
@@ -225,7 +224,7 @@ function findWdLstByPartwd(curWdpart) {
     }
 
 
-
+ 
 
     var {readFileSync, writeFileSync, appendFileSync} = require("fs");
     txt = readFileSync(iomapfile)
